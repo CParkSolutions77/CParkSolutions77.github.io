@@ -194,14 +194,6 @@
         </div>
       </div>
 
-      <!-- About Section Button -->
-      <div class="text-center mt-4">
-        <a class="btn btn-xl btn-outline-light" href="https://startbootstrap.com/themes/freelancer/">
-          <i class="fas fa-download mr-2"></i>
-          Free Download!
-        </a>
-      </div>
-
     </div>
   </section>
 
@@ -261,21 +253,20 @@
             </div>
           </form> -->
 
-          <form
-            action="https://formspree.io/mnqjgebz"
-            method="POST"
-          >
-            <label>
-              Your email:
-              <input type="text" name="_replyto">
-            </label>
-            <label>
-              Your message:
-              <textarea name="message"></textarea>
-            </label>
+          <form action="https://formspree.io/mnqjgebz" method="POST" id="contactForm">
+            <div id="control-group">
+              <label>
+                Your email:
+                <input type="text" name="_replyto" class="form-control">
+              </label>
+              <label>
+                Your message:
+                <textarea name="message"  class="form-control"></textarea>
+              </label>
 
 
-            <button type="submit">Send</button>
+              <button type="submit">Send</button>
+            </div>
           </form>
         </div>
       </div>
